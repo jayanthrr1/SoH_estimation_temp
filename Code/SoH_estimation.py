@@ -45,24 +45,23 @@ plotting = True
 
 # SPECIFY THE INPUT TYPE HERE.
 # Possible options:
-    # pulse : uses voltage response corresponding to pulse current
-    # cc : uses voltage reponse corresponding to constant current
-    
+    # 'pulse' : uses voltage response corresponding to pulse current
+    # 'cc' : uses voltage reponse corresponding to constant current
 input_type = 'cc'
 
 #%% Get data based on input type
 
 # Possible output options (resistance take the form 'r' followed by the current [C3, C4, C5] and SoC [30,50,70] ) :
-    # soh
-    # r_C3_30soc
-    # r_C3_50soc
-    # r_C3_70soc
-    # r_C4_30soc
-    # r_C4_50soc
-    # r_C4_70soc
-    # r_C5_30soc
-    # r_C5_50soc
-    # r_C5_70soc
+    # 'soh'
+    # 'r_C3_30soc'
+    # 'r_C3_50soc'
+    # 'r_C3_70soc'
+    # 'r_C4_30soc'
+    # 'r_C4_50soc'
+    # 'r_C4_70soc'
+    # 'r_C5_30soc'
+    # 'r_C5_50soc'
+    # 'r_C5_70soc'
 
 # default is to inlude all the outputs    
 outputs = ['soh', 'r_C3_30soc', 'r_C3_50soc', 'r_C3_70soc', \
@@ -72,15 +71,15 @@ outputs = ['soh', 'r_C3_30soc', 'r_C3_50soc', 'r_C3_70soc', \
 
 # Pulse inputs
 # Possible input options (Inputs take the form 'pulseV' followed by the current [C3, C4, C5] and SoC [30,50,70] ) : 
-    # pulseV_C3_30soc
-    # pulseV_C3_50soc
-    # pulseV_C3_70soc
-    # pulseV_C4_30soc
-    # pulseV_C4_50soc
-    # pulseV_C4_70soc
-    # pulseV_C5_30soc
-    # pulseV_C5_50soc
-    # pulseV_C5_70soc
+    # 'pulseV_C3_30soc'
+    # 'pulseV_C3_50soc'
+    # 'pulseV_C3_70soc'
+    # 'pulseV_C4_30soc'
+    # 'pulseV_C4_50soc'
+    # 'pulseV_C4_70soc'
+    # 'pulseV_C5_30soc'
+    # 'pulseV_C5_50soc'
+    # 'pulseV_C5_70soc'
     
 # CC inputs
 # Possible parameters to tune:
