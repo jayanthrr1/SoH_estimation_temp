@@ -1,0 +1,24 @@
+SoH estimation README
+This repository contains Python code for comparing the errors in State of Health (SoH) estimation using two different input types: voltage responses corresponding to constant current (CCCV) and pulse current applications. The code utilizes a Keras Sequential model for SoH estimation.
+
+Input type:
+	'cc' : Uses section of CCCV voltage response
+		Range of SoC and the length of the sections can be sepcified
+		
+	'pulse' : Uses pulse current voltage response
+		Type of pulse input can be sepcified
+
+Outputs
+	soh : discharge capacity at each RPT
+	r_C3_30soc : resistance using 2 A current at 30% SOC
+	r_C3_50soc : resistance using 2 A current at 50% SOC
+	r_C3_70soc : resistance using 2 A current at 70% SOC
+	r_C4_30soc : resistance using 4 A current at 30% SOC
+	r_C4_50soc : resistance using 4 A current at 50% SOC
+	r_C4_70soc : resistance using 4 A current at 70% SOC
+	r_C5_30soc : resistance using 6 A current at 30% SOC
+	r_C5_50soc : resistance using 6 A current at 50% SOC
+	r_C5_70soc : resistance using 6 A current at 70% SOC
+	
+
+For more details, please refer to the code comments and documentation within the functions
